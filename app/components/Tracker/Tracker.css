@@ -1,0 +1,205 @@
+.container {
+  margin-top: 23px;
+  width: 100%;
+}
+
+.logo {
+  width: 45.8px;
+  height: 39.5px;
+  position: absolute;
+  right: 25px;
+  top: 6px;
+}
+
+.contentContainer {
+  display: flex;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.trackersList {
+  width: 60%;
+  margin-top: 30px;
+}
+
+.contentContainerRight {
+  width: 40%;
+  margin-top: 100px;
+  margin-right: 35px;
+}
+
+.containerLeft {
+  width: 50px;
+}
+
+.containerCenter {
+  margin-left: 25px;
+  width: 100%;
+}
+
+.heading {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.44;
+  letter-spacing: 0;
+  color: #393939;
+}
+
+.progressHeading {
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 0;
+  color: #5d7bb0;
+  margin-top: 10px;
+}
+
+.progressBg {
+  height: 9px;
+  margin-top: 10px;
+  background-color: #e0e0e0;
+}
+
+.progressCompleted {
+  height: 9px;
+  width: 100px;
+  background-color: #73bb86;
+}
+
+.progressType {
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0;
+  color: #000;
+  margin-top: 10px;
+}
+
+.reminder {
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0;
+  color: #d0021b;
+  margin-left: 32px;
+}
+
+.bellIcon {
+  position: absolute;
+}
+.checkboxMarkedCircle {
+  position: absolute;
+  bottom: -8px;
+}
+
+.infoIcon {
+  position: absolute;
+  right: 20px;
+}
+
+.milestonesDone {
+  margin-top: 18px;
+  min-height: 289px;
+  background-color: #fff;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.13), 0 3px 4px 0 rgba(0, 0, 0, 0.13);
+  padding: 16px;
+}
+
+/* .milestoneStatus {
+  position: relative;
+} */
+
+.milestoneStatusHeading {
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: #5d7bb0;
+  margin-left: 27px;
+}
+
+.milestoneTextRight {
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0;
+  color: #393939;
+  padding: 15px 15px 15px 0;
+}
+
+.milestoneTextLeft {
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0;
+  color: #393939;
+  padding: 15px 15px 15px 0;
+  float: left;
+}
+
+.notes {
+  height: 386px;
+  margin-top: 17px;
+  padding: 16px;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: #5d7bb0;
+  background-color: #fffbdd;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.13), 0 3px 4px 0 rgba(0, 0, 0, 0.13);
+}
+
+.cardBase {
+  margin-top: 19px;
+}
+
+.cardSuccess {
+  width: 100%;
+  background-color: #a2dedc;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+.learn {
+  background-color: #f4cf69;
+}
+.plan {
+  background-color: #fd7a6c;
+}
+.progress {
+  background-color: #9fdd9c;
+}
+.link {
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 0;
+  color: #5d7bb0;
+}
+.linkIn {
+  padding-left: 30px;
+}
+.listItem {
+  margin-bottom: 30px;
+}
+.radioStatus {
+  display: inline-block;
+  float: right;
+  margin-top: 10px;
+  font-weight: 100;
+  font-size: 15px;
+  font-style: italic;
+  letter-spacing: 0;
+  color: #393939;
+}
+.milestoneStatus {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0;
+  color: #fd7a6c;
+  position: relative;
+}
+.right {
+  float: right;
+}

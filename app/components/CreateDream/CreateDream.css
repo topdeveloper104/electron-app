@@ -1,0 +1,46 @@
+.container {
+  margin-top: 23px;
+  height: 100vh;
+  width: 100%;
+}
+.ul {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.li {
+  list-style-type: none;
+  padding: 0 0 11px 0;
+}
+.shape {
+  height: 22px;
+}
+.containerLeft {
+  width: 50px;
+}
+.containerCenter {
+  margin-left: 25px;
+  width: 100%;
+}
+.heading {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-size: 27px;
+  letter-spacing: 0;
+  color: #73bb86;
+  margin-top: 20px;
+}
+#dreamInput {
+  width: '100%';
+}
+.textField {
+  width: '100%';
+}
+.dreamListLable {
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 0;
+  color: rgba(57, 57, 57, 0.67);
+}

@@ -1,0 +1,155 @@
+.container {
+  margin-top: 23px;
+  width: 100%;
+}
+.logo {
+  width: 45.8px;
+  height: 39.5px;
+  position: absolute;
+  right: 25px;
+  top: 6px;
+}
+.contentContainer {
+  display: flex;
+}
+.trackersList {
+  width: 60%;
+  height: 100vh;
+  overflow: scroll;
+}
+.popupLeft {
+  width: 60%;
+  margin-top: 39px;
+  margin-right: 25px;
+  height: 100vh;
+}
+.notesTitle {
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: #fd7a6c;
+  margin-top: 79px;
+}
+.popUpNotes {
+  margin-top: 17px;
+  margin-right: 14px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.43;
+  letter-spacing: 0;
+  color: #636363;
+}
+.contentContainerRight {
+  width: 40%;
+}
+.addwidgetBtn {
+  margin-top: 110px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: #73bb86;
+  cursor: pointer;
+}
+.addBtn {
+  width: 13px;
+  height: 13px;
+  position: absolute;
+}
+.notes {
+  height: 386px;
+  margin-top: 17px;
+  margin-right: 14px;
+  padding: 16px;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: #5d7bb0;
+  background-color: #fffbdd;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.13), 0 3px 4px 0 rgba(0, 0, 0, 0.13);
+}
+.listItem {
+  margin-bottom: 30px;
+}
+.selectContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+.selectBox {
+  font-size: '11px';
+  font-weight: 'bold';
+  letter-spacing: 0;
+  color: '#5d7bb0';
+  align-self: 'flex-end';
+}
+.selectBox.focused {
+  background-color: red;
+}
+.reminder {
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0;
+  color: #d0021b;
+  margin-left: 32px;
+}
+.bellIcon {
+  position: absolute;
+}
+.radioStatus {
+  display: inline-block;
+  float: right;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.93;
+  letter-spacing: 0;
+  color: #fd7a6c;
+}
+.milestoneStatus {
+  display: inline-block;
+  float: right;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.93;
+  letter-spacing: 0;
+  color: #fd7a6c;
+}
+.radioStatusStarted {
+  display: inline-block;
+  float: right;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.93;
+  letter-spacing: 0;
+  color: #f4cf69;
+}
+.cardLayout {
+  background-color: #fffbdd;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.13), 0 3px 4px 0 rgba(0, 0, 0, 0.13);
+}
+.watch {
+  margin-top: 17px;
+  margin-right: 14px;
+  height: 80px;
+  background-color: #212b50;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.13), 0 3px 4px 0 rgba(0, 0, 0, 0.13);
+  color: #fff;
+  font-size: 64px;
+  position: relative;
+  text-align: center;
+}
+.watchShape {
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  background-color: #73bb86;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.popupHeader {
+  height: 17px;
+  background-color: #fd7a6c;
+}

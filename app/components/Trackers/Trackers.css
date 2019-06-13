@@ -1,0 +1,83 @@
+.container {
+  margin-top: 23px;
+  height: 100vh;
+  width: 100%;
+}
+.logo {
+  width: 45.8px;
+  height: 39.5px;
+  position: absolute;
+  right: 25px;
+  top: 6px;
+}
+.contentContainer {
+  display: flex;
+}
+.trackersList {
+  width: 60%;
+}
+.contentContainerRight {
+  width: 40%;
+}
+.addTrackersBtn {
+  margin-top: 53px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: #73bb86;
+  cursor: pointer;
+}
+.addBtn {
+  width: 13px;
+  height: 13px;
+  position: absolute;
+}
+.ul {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.li {
+  list-style-type: none;
+  padding: 0 0 11px 0;
+}
+.shape {
+  height: 22px;
+}
+.containerLeft {
+  width: 50px;
+}
+.containerCenter {
+  margin-left: 25px;
+  width: 100%;
+}
+.heading {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-size: 27px;
+  letter-spacing: 0;
+  color: #73bb86;
+  margin-top: 20px;
+}
+#dreamInput {
+  width: '100%';
+}
+.textField {
+  width: '100%';
+}
+.dreamListLable {
+  margin-top: 53px;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0;
+  color: #393939;
+  cursor: pointer;
+  display: block;
+  opacity: 1;
+  padding-right: 20px;
+}
+.dreamListLable:hover {
+  color: #73bb86;
+  cursor: pointer;
+}
